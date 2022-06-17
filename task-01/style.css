@@ -142,9 +142,9 @@ label{
 .footer-content{
     display: flex;
     height: 338px;
-    align-items: center;
     justify-content: center;
     gap: 100px;
+    padding-top: 20px;
 }
 .logo-part{
     display: flex;

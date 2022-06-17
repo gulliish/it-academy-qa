@@ -1,0 +1,30 @@
+:root {
+    --header-text-color: #ffffff;
+    --title-color: #252B42;
+    --text-color: #737373;
+    --primary-color: #23A6F0;
+    --footer-second-bg-color: #FAFAFA;
+    --input-bg-color: #F9F9F9;
+    --main-font-size: 14px;
+    --title-fs: 24px;
+    --secondary-title-fs: 16px;
+    --main-line-height: 20px;
+    --title-lh: 32px;
+    --secondary-title-lh: 24px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, div, span, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

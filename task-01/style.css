@@ -1,0 +1,178 @@
+@import url(./base.css);
+.header {
+    background: url(./assets/hero-6-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 946px;
+    color: var(--header-text-color);
+}
+.filter{
+    width: 100%;
+    height: 946px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.header-top-part {
+    display: flex;
+    height: 91px;
+    justify-content: space-around;
+    align-items: center;
+}
+.fs700 {
+    font-weight: 700;
+}
+.fs400 {
+    font-weight: 400;
+}
+.title {
+    color: var(--title-color);
+    font-size: var(--title-fs);
+    line-height: var(--title-lh);
+    letter-spacing: 0.1px;
+}
+.text {
+    color: var(--text-color);
+    font-size: var(--main-font-size);
+    line-height: var(--main-line-height);
+    letter-spacing: 0.2px;
+}
+.header-title {
+}
+.nav-burger {
+}
+.header-nav {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.header-top-part-content{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.header-nav__link {
+    color: var(--header-text-color);
+}
+.login-text {
+    color: var(--header-text-color);
+}
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: var(--header-text-color);
+    border: none;
+}
+.header-btn {
+    margin-left: 45px;
+}
+.header-content {
+    text-align: center;
+}
+.content-first {
+}
+.main-title {
+    font-size: 52px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.main-text {
+    margin: 36px 0 125px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.content-second {
+}
+.content-btn {
+}
+.main-part {
+}
+.section {
+}
+.first-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    width: 328px;
+    height: 292px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    margin-top: -120px;
+    background-color: #fff;
+}
+.card-one {
+}
+.card-two {
+}
+.card-three {
+}
+.second-section {
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 688px;
+    height: 58px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-right: 0;
+    padding-left: 20px;
+}
+label{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 20px 50px;
+    color: var(--header-text-color);
+    border: none;
+    margin-left: 0;
+}
+.footer {
+}
+.footer-content{
+    display: flex;
+    height: 338px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.footer-part-one {
+}
+.logo-part{
+    display: flex;
+    gap: 22px;
+}
+.logo {
+    width: 22px;
+    height: 22px;
+}
+.footer-part-one, .footer-part-two, .footer-part-three, .footer-part-four , .footer-bottom-part  {
+    display: flex;
+    flex-direction: column;
+}
+.footer-part-three {
+}
+.footer-part-four {
+}
+.footer-bottom-part {
+    width: 100vw;
+    height: 76px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--footer-second-bg-color);
+}
+.bottom-part_text {
+
+}
